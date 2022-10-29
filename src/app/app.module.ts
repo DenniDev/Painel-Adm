@@ -69,6 +69,7 @@ import {
 //Guard
 import { AuthGuard } from "./guards/auth-guard.service";
 import { AuthService } from "./guards/verificador";
+import { EventosComponent } from './views/admin/eventos/eventos.component';
 
 
 @NgModule({
@@ -109,7 +110,8 @@ import { AuthService } from "./guards/verificador";
     ProfileComponent,
     ProdutosComponent,
     CategoriasComponent,
-    PedidosComponent
+    PedidosComponent,
+    EventosComponent
     
   ],
   imports: [BrowserModule, AppRoutingModule, AngularFireModule.initializeApp(environment.firebase),

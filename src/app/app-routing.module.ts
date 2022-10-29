@@ -13,6 +13,8 @@ import { PedidosComponent } from "./views/admin/pedidos/pedidos.component";
 import { ProdutosComponent } from "./views/admin/produtos/produtos.component";
 import { SettingsComponent } from "./views/admin/settings/settings.component";
 import { TablesComponent } from "./views/admin/tables/tables.component";
+import { EventosComponent } from "./views/admin/eventos/eventos.component";
+
 
 // auth views
 import { LoginComponent } from "./views/auth/login/login.component";
@@ -38,6 +40,7 @@ const routes: Routes = [
       { path: "produtos", component: ProdutosComponent },
       { path: "categorias", component: CategoriasComponent },
       { path: "pedidos", component: PedidosComponent },
+      { path: "eventos", component: EventosComponent },
       { path: "", redirectTo: "dashboard", pathMatch: "full" },
     ],
   },

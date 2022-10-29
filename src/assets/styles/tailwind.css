@@ -530,12 +530,6 @@ textarea {
   color: inherit;
 }
 
-/**
- * Use the configured 'mono' font family for elements that
- * are expected to be rendered with a monospace font, falling
- * back to the system monospace stack if there is no configured
- * 'mono' font family.
- */
 
 pre,
 code,
@@ -544,13 +538,7 @@ samp {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-/**
- * Make replaced elements `display: block` by default as that's
- * the behavior you want almost all of the time. Inspired by
- * CSS Remedy, with `svg` added as well.
- *
- * https://github.com/mozdevs/cssremedy/issues/14
- */
+
 
 img,
 svg,
@@ -1127,7 +1115,13 @@ video {
   background-color: #ecc94b;
   background-color: rgba(236, 201, 75, var(--bg-opacity));
 }
+.bg-madeira {
 
+  background-color: #863800;
+}
+.bg-madeira-leve {
+  background-color: #F29552;
+}
 .bg-green-200 {
   --bg-opacity: 1;
   background-color: #c6f6d5;

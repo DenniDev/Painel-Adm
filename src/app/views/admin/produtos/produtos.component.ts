@@ -40,9 +40,9 @@ export class ProdutosComponent implements OnInit {
   ) { }
 
   //Upload de imagem
-  onFileSelected(event) {
+  onFileSelected($event) {
     var n = Date.now();
-    const file = event.target.files[0];
+    const file = $event.target.files[0];
     const filePath = `imagems/${n}`;
     const fileRef = this.storage.ref(filePath);
     const task = this.storage.upload(`imagems/${n}`, file);
